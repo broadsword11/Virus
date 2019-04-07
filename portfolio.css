@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+}
+body {
+    margin: 0%;
+}
+.container{
+    height: 100%; width: 100%;
+}
+.left-container, .right-container {
+    height: 100%; width: 50%;float: left;
+}
+.left-container{
+    background-color: black; 
+    padding-top: 1px;
+}
+.left-container img{
+    border: 1px #ddd;
+    border-radius: 100%;
+    padding: 8px;
+    width: 200px;
+    height: 200px;   
+}
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+  width: 50%;
+}
+.right-container h1{
+    color: rebeccapurple;
+    text-align: center;
+}
+.right-container .text1{
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    }
+.progress-bar{
+        
+}
